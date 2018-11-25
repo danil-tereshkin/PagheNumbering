@@ -1,0 +1,34 @@
+div.item-list {
+    background-color: rgb(219, 219, 219);
+    height: 30px;
+    font: 19px/30px Times serif;
+    border-bottom: 4px solid rgb(189, 189, 189);
+}
+
+ul.pager {
+    list-style: none;
+    padding-left: 25px;
+}
+
+
+li.pager-current,
+li.first,
+li.pager-item,
+li.pager-next {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+li.pager-current,
+li.first {
+    background-color: rgb(168, 168, 168);
+    border-bottom: 4px solid rgb(68, 68, 68);
+}
+
+li.pager-item a,
+li.pager-next a,
+li.last a {
+    color: brown;
+    text-decoration: none;
+}
